@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                     </div>
                     <div class="form-control">
                         <label for="password">Mot de passe</label>
-                        <input type="text" name="password" id="password">
+                        <input type="password" name="password" id="password">
                         <?php if ($errors['password']) : ?>
                             <p class="text-danger"><?= $errors['password'] ?></p>
                         <?php endif; ?>
